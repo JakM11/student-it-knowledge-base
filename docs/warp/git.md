@@ -25,6 +25,7 @@ Pobranie zmian bez tworzenia nieoczekiwanego merge commita.
 # git fetch	
 `git fetch origin`	
 Pobranie informacji o zmianach bez modyfikowania plików roboczych.
+edit: git fetch pobiera informacje o commitach
 
 # git branch	
 `git branch`	
