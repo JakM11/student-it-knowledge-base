@@ -7,8 +7,8 @@ Wyświetlanie ścieżki bieżącego katalogu.
 Listowanie plików, także ukrytych, w formacie szczegółowym.
 
 ## cd
-`cd docs/ukos`
-oraz cd ..	Przechodzenie do katalogu i katalogu nadrzędnego.
+`cd docs/ukos oraz cd ..`
+Przechodzenie do katalogu i katalogu nadrzędnego.
 
 ## mkdir
 `mkdir -p docs/ukos`
@@ -23,8 +23,8 @@ Tworzenie pustego pliku lub aktualizacja czasu jego modyfikacji.
 Kopiowanie pliku; wspomnij o opcji -r dla katalogów.
 
 ## mv	
-`mv bash-backup.md` 
-archive.md	Przenoszenie i zmiana nazwy pliku.
+`mv bash-backup.md archive.md`
+Przenoszenie i zmiana nazwy pliku.
 
 ## rm	
 `rm archive.md`	
