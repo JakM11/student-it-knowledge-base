@@ -28,7 +28,7 @@ Przenoszenie i zmiana nazwy pliku.
 
 ## rm	
 `rm archive.md`	
-Usuwanie pliku i ostrzeżenie, że operacja omija kosz.
+Usuwanie pliku i ostrzeżenie, że operacja omija kosz. `rm` usuwa pliki bez kosza
 
 ## cat	
 `cat bash.md`	
