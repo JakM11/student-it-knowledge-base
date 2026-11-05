@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<link rel="stylesheet" href="../styles.css" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Student IT Knowledge Base</title>
+	</head>
+	<body>
+		<h1>Student IT Knowledge Base</h1>
+		<header>
+			<nav aria-label="Główna nawigacja">
+				<a href="../index.html">Start</a>
+				<a href="bash.html">Bash</a>
+				<a href="git.html">Git</a>
+				<a href="dotnet-cli.html">Dotnet-cli</a>
+				<a href="../docs/warp/git.md">Oryginalny git.md</a>
+				<a href="https://git-scm.com/docs">Git Docs</a>
+			</nav>
+		</header>
+
+		<main>
+			<h1>Ściągi z git.</h1>
+			<p>
+				Lista komend git z opisami funkcjonowania, przykładami oraz
+				bezpiecznym używaniem.
+			</p>
+
+			<table>
+				<caption>
+					Podstawowe polecenia Git
+				</caption>
+				<thead>
+					<tr>
+						<th>Polecenie</th>
+						<th>Przykład</th>
+						<th>Opis</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>git clone</td>
+						<td><code>git clone URL</code></td>
+						<td>
+							Pobranie repozytorium i utworzenie lokalnego
+							katalogu.
+						</td>
+					</tr>
+					<tr>
+						<td>git status</td>
+						<td><code>git status</code></td>
+						<td>
+							Sprawdzenie gałęzi oraz plików zmienionych i
+							przygotowanych.
+						</td>
+					</tr>
+					<tr>
+						<td>git add</td>
+						<td><code>git add docs/warp/git.md</code></td>
+						<td>Dodanie konkretnego pliku do obszaru staging.</td>
+					</tr>
+					<tr>
+						<td>git commit</td>
+						<td>
+							<code
+								>git commit -m "docs: add Git cheatsheet"</code
+							>
+						</td>
+						<td>
+							Zapis przygotowanych zmian z czytelnym komunikatem.
+						</td>
+					</tr>
+					<tr>
+						<td>git push</td>
+						<td>
+							<code
+								>git push -u origin feature/git-cheatsheet</code
+							>
+						</td>
+						<td>Publikacja nowej gałęzi i ustawienie śledzenia.</td>
+					</tr>
+					<tr>
+						<td>git pull</td>
+						<td><code>git pull --ff-only origin main</code></td>
+						<td>
+							Pobranie zmian bez tworzenia nieoczekiwanego merge
+							commita.
+						</td>
+					</tr>
+					<tr>
+						<td>git fetch</td>
+						<td><code>git fetch origin</code></td>
+						<td>
+							Pobranie informacji o nowych commitach bez
+							modyfikowania plików roboczych.
+						</td>
+					</tr>
+					<tr>
+						<td>git branch</td>
+						<td><code>git branch</code></td>
+						<td>
+							Wyświetlenie lokalnych gałęzi i oznaczenie aktywnej.
+						</td>
+					</tr>
+					<tr>
+						<td>git switch</td>
+						<td><code>git switch -c feature/nazwa</code></td>
+						<td>
+							Utworzenie gałęzi roboczej i przełączenie na nią.
+						</td>
+					</tr>
+					<tr>
+						<td>git log</td>
+						<td><code>git log --oneline -5</code></td>
+						<td>Skrócony podgląd pięciu ostatnich commitów.</td>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			Procedura pracy:
+			<ol>
+				<li>synchronizacja</li>
+				<li>branch</li>
+				<li>zmiana</li>
+				<li>commit</li>
+				<li>push</li>
+				<li>PR</li>
+			</ol>
+		</main>
+
+		<footer>
+			<p>Materiały edukacyjne</p>
+		</footer>
+	</body>
+</html>
