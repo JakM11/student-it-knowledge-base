@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <link rel="stylesheet" href="../styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student IT Knowledge Base</title>
+</head>
+<body>
+  <h1>Student IT Knowledge Base</h1>
+  <header>
+  <nav aria-label="Główna nawigacja">
+    <a href="../index.html">Start</a>
+    <a href="bash.html">Bash</a>
+    <a href="git.html">Git</a>
+    <a href="dotnet-cli.html">Dotnet-cli</a>
+    <a href="../docs/ukos/bash.md">Oryginalny bash.md</a>
+    <a href="https://www.gnu.org/software/bash/manual/">GNU Bash Manual</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Ściągi z przedmiotów informatycznych.</h1>
+  <p>Lista komend bash z opisami funkcjonowania, przykładami oraz bezpiecznym uzywaniem.</p>
+  
+<table>
+    <caption>Podstawowe polecenia systemu Bash</caption>
+    <thead>
+        <tr>
+            <th>Polecenie</th>
+            <th>Przykład</th>
+            <th>Opis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>pwd</td>
+            <td><code>pwd</code></td>
+            <td>Wyświetlanie ścieżki bieżącego katalogu.</td>
+        </tr>
+        <tr>
+            <td>ls</td>
+            <td><code>ls -la</code></td>
+            <td>Listowanie plików, także ukrytych, w formacie szczegółowym.</td>
+        </tr>
+        <tr>
+            <td>cd</td>
+            <td><code>cd docs/ukos</code><br><code>cd ..</code></td>
+            <td>Przechodzenie do wskazanego katalogu lub katalogu nadrzędnego.</td>
+        </tr>
+        <tr>
+            <td>mkdir</td>
+            <td><code>mkdir -p docs/ukos</code></td>
+            <td>Tworzenie katalogu wraz z brakującymi katalogami nadrzędnymi.</td>
+        </tr>
+        <tr>
+            <td>touch</td>
+            <td><code>touch bash.md</code></td>
+            <td>Tworzenie pustego pliku lub aktualizacja czasu jego modyfikacji.</td>
+        </tr>
+        <tr>
+            <td>cp</td>
+            <td><code>cp bash.md bash-backup.md</code></td>
+            <td>Kopiowanie plików. Opcja <code>-r</code> umożliwia kopiowanie katalogów wraz z zawartością.</td>
+        </tr>
+        <tr>
+            <td>mv</td>
+            <td><code>mv bash-backup.md archive.md</code></td>
+            <td>Przenoszenie plików i zmiana ich nazw.</td>
+        </tr>
+        <tr>
+            <td>rm</td>
+            <td><code>rm archive.md</code></td>
+            <td>Usuwanie plików. Operacja omija kosz, dlatego plik nie trafia do kosza systemowego.</td>
+        </tr>
+        <tr>
+            <td>cat</td>
+            <td><code>cat bash.md</code></td>
+            <td>Wyświetlanie zawartości pliku w terminalu.</td>
+        </tr>
+        <tr>
+            <td>clear</td>
+            <td><code>clear</code></td>
+            <td>Czyszczenie widoku terminala bez usuwania historii poleceń.</td>
+        </tr>
+    </tbody>
+</table>
+
+</main>
+
+<footer>
+  <p>Materiały edukacyjne</p>
+</footer>
+</body>
+</html>
