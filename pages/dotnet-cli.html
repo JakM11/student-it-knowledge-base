@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <link rel="stylesheet" href="../styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student IT Knowledge Base</title>
+</head>
+<body>
+  <h1>Student IT Knowledge Base</h1>
+  <header>
+  <nav aria-label="Główna nawigacja">
+    <a href="../index.html">Start</a>
+    <a href="bash.html">Bash</a>
+    <a href="git.html">Git</a>
+    <a href="dotnet-cli.html">Dotnet-cli</a>
+    <a href="../docs/ukos/bash.md">Oryginalny bash.md</a>
+    <a href="https://learn.microsoft.com/pl-pl/dotnet/core/tools/">GNU Bash Manual</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Ściągi z przedmiotów informatycznych.</h1>
+  <p>Lista komend dotnet z opisami funkcjonowania, przykładami oraz bezpiecznym uzywaniem.</p>
+  
+<table>
+    <caption>Podstawowe polecenia systemu dotnet</caption>
+    <thead>
+        <tr>
+            <th>Polecenie</th>
+            <th>Przykład</th>
+            <th>Opis</th>
+        </tr>
+    </thead>
+    dotnet --version
+
+dotnet --version Sprawdzenie zainstalowanej wersji zestawu .NET SDK.
+dotnet --list-sdks
+
+dotnet --list-sdks Wyświetlenie wszystkich dostępnych wersji SDK.
+dotnet new list
+
+dotnet new list Wyświetlenie dostępnych szablonów projektów.
+dotnet new console
+
+dotnet new console Utworzenie aplikacji konsolowej w bieżącym katalogu.
+dotnet new console -n
+
+dotnet new console -n MyApp Utworzenie aplikacji konsolowej w katalogu MyApp.
+dotnet restore
+
+dotnet restore Pobranie zależności wymaganych przez projekt.
+dotnet build
+
+dotnet build Kompilacja projektu i odczyt komunikatów o błędach.
+dotnet run
+
+dotnet run --project MyApp Zbudowanie i uruchomienie wskazanego projektu.
+dotnet clean
+
+dotnet clean Usunięcie plików wygenerowanych podczas kompilacji.
+    <tbody>
+
+        <tr>
+            <td>dotnet --version</td>
+            <td><code>dotnet --version</code></td>
+            <td>Sprawdzenie zainstalowanej wersji zestawu .NET SDK.</td>
+        </tr>
+        <tr>
+            <td>dotnet --list-sdks</td>
+            <td><code>dotnet --list-sdks</code></td>
+            <td>Wyświetlenie wszystkich dostępnych wersji SDK.</td>
+        </tr>
+        <tr>
+            <td>dotnet new list</td>
+            <td><code>dotnet new list</code></td>
+            <td>Wyświetlenie dostępnych szablonów projektów.</td>
+        </tr>
+        <tr>
+            <td>dotnet new console</td>
+            <td><code>dotnet new console</code></td>
+            <td>Utworzenie aplikacji konsolowej w bieżącym katalogu.</td>
+        </tr>
+        <tr>
+            <td>dotnet new console -n</td>
+            <td><code>dotnet new console -n MyApp</code></td>
+            <td>Utworzenie aplikacji konsolowej w katalogu MyApp.</td>
+        </tr>
+        <tr>
+            <td>dotnet restore</td>
+            <td><code>dotnet restore</code></td>
+            <td>Pobranie zależności wymaganych przez projekt.</td>
+        </tr>
+        <tr>
+            <td>dotnet build</td>
+            <td><code>dotnet build</code></td>
+            <td>Kompilacja projektu i odczyt komunikatów o błędach.</td>
+        </tr>
+        <tr>
+            <td>dotnet run</td>
+            <td><code>dotnet run --project MyApp</code></td>
+            <td>Zbudowanie i uruchomienie wskazanego projektu.</td>
+        </tr>
+        <tr>
+            <td>dotnet clean</td>
+            <td><code>dotnet clean</code></td>
+            <td>Usunięcie plików wygenerowanych podczas kompilacji.</td>
+        </tr>
+    </tbody>
+</table>
+
+</main>
+
+<footer>
+  <p>Materiały edukacyjne</p>
+</footer>
+</body>
+</html>
